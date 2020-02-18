@@ -17,7 +17,6 @@ import com.qaprosoft.carina.core.foundation.utils.R;
 import com.qaprosoft.carina.core.gui.AbstractPage;
 import com.qaprosoft.zafira.listener.ZafiraEventRegistrar;
 
-import compas.qualitykiosk.selenium_browser.Performance;
 
 import java.io.IOException;
 import java.lang.reflect.Method;
@@ -48,7 +47,7 @@ public class PerformanceStats extends AbstractPage {
 
 	private RestHighLevelClient restHighLevelClient;*/
 
-	public void getPerformanceStats(String pageName) {
+	public void getPerformanceStats(String pageName) {/*
 
 		WebDriver driver = getDriver();
 		Performance getPerfStats = new Performance(driver);
@@ -58,7 +57,7 @@ public class PerformanceStats extends AbstractPage {
 		} catch (Exception e) {
 			System.out.println("******Performance Stats Exception :-" + e.getMessage());
 		}
-	}
+	*/}
 
 /*	@SuppressWarnings("unused")
 	private static String captureHAR(WebDriver driver) {
